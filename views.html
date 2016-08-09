@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<script charset="utf-8" src="js/jquery.min.js"></script>
+	<script charset="utf-8" src="js/global.js"></script>
+	<script charset="utf-8" src="js/bootstrap.min.js"></script>
+	<script charset="utf-8" src="js/template.js"></script>
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/member.css">
+	<link rel="stylesheet" href="css/order3.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1;user-scalable=no;">
+	<title>物品详情</title>
+	<link rel="stylesheet" href="css/productDetail.css">
+	<script charset="utf-8" src="js/TouchSlide.js"></script>
+	<script charset="utf-8" src="js/prodDetail.js"></script>
+	<style type="text/css">
+	.details_con li .tb-out-of-stock{
+		border: 1px dashed #bbb;
+		color:#bbb;
+		cursor: not-allowed;
+	}
+	.no-selected{
+		background: #ffe8e8 none repeat scroll 0 0;
+		border: 2px solid #be0106;
+		margin: -1px;
+	}
+	</style>
+</head>
+
+<body>
+
+	<div class="fanhui_cou">
+		<div class="fanhui_1"></div>
+		<div class="fanhui_ding">顶部</div>
+	</div>
+
+	<header class="header">
+		<div class="fix_nav">
+			<div style="max-width:768px;margin:0 auto;background:#000;position: relative;">
+				<a class="nav-left back-icon" href="javascript:history.back();">返回</a>
+				<div class="tit">商品详情</div>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="goods_pic">
+			<img src="img/44cd1b3d-80e7-4e62-94db-ba53a273cfe4.jpg" width="100%" height="80%">
+		</div>
+		<div class="row gary-bg">
+			<div class="white-bg p10 details_con">
+				<h1 class="item-name" id="prodName">这里填写商品的名字</h1>
+				<ul>
+					<li>
+						<label>详细介绍：</label>
+						<span>
+							这里填写详细的商品介绍这里填写详细的商品介绍这里填写详细的商品介绍这里填写详细的商品介绍这里填写详细的商品介绍这里填写详细的商品介绍这里填写详细的商品介绍
+						</span>
+					</li>
+					<li>
+						<label>商城价格：</label>
+						<span class="price">¥<span class="price" id="prodCash">179.00</span></span>
+					</li>
+					<li>
+						<label>数量：</label>
+						<div class="count_div" style="height: 30px; width: 130px;">
+							<a href="javascript:void(0);" class="minus" ></a>
+							<input type="text" class="count" value="1" id="prodCount" readonly="readonly"/>
+							<a href="javascript:void(0);" class="add" ></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		
+
+		<div class="clear"></div>
+
+		<footer class="footer">
+			<div class="fixed-foot">
+				<div class="fixed_inner">
+					<div class="buy-btn-fix">
+						<a class="btn btn-danger btn-buy" href="javascript:void(0);">立即购买</a>
+						<a href="userhome.html" class=""></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+	</html>

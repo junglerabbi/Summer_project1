@@ -1,0 +1,75 @@
+.head{
+	height:40px;
+	line-height: 40px;
+	background-color: rgba(255,255,255,0.5);
+}
+.logo{
+	font-size: 18px;
+	color:orange;
+}
+.back{
+	font-size: 15px;
+	font-weight: 500;
+	color:#121212;
+}
+.tit{
+	background-color: green;
+}
+.content_title{
+	height:50px;
+	margin-top: 10px;
+	line-height: 50px;
+	color:#fff;
+	background-color: green;
+	text-align: center;
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+.tempWrap{
+	overflow:hidden; 
+	position:relative;
+}
+.tempWrap ul{
+	width: 3840px;
+	 position: relative; 
+	 overflow: hidden; 
+	 padding: 0px; margin: 0px; 
+	 transition-duration: 200ms; 
+	 transform: translateX(-768px);
+}
+.tempWrap ul li{
+	display: table-cell; vertical-align: top; width: 768px;
+}
+
+#index{
+	width:50%;
+}
+#userhome{
+	width:50%;
+}
+.category_list{
+	display:none;
+}
+.active{
+	display:block;
+}
+.member_m_x{
+	color:gold;
+	font-weight: bold;
+}
+.address_input{
+	height:150px;
+	padding-top: 30px;
+	background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+}
+.input-group span{
+	background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+	border-color: rgba(255,255,255,1);
+	color:green;
+	font-weight: bold;
+}
+.input_button{
+	margin-top: 30px;
+	width:50px;
+	height:30px;
+}
