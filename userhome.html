@@ -62,10 +62,8 @@
 					</div>
 				</div>
 
-				<div class="list-group mb10">
+				<div class="list-group ">
 					<a href="#history_buy" data-toggle="collapse" class="list-group-item tip collapsed">
-						<div class="list_group_img">
-							<img src="images/member_img16.png"></div>
 							我的订单
 					</a>
 					<div id="history_buy" class=" collapse clearfix">
@@ -83,12 +81,11 @@
 					</div>
 				</div>
 
-				<div class="list-group mb10">
+				<div class="list-group">
 					<a href="#address" class="list-group-item collapsed tip" data-toggle="collapse">
-						<div class="list_group_img"><img src="images/order_bg_9.png"></div>
 						收货地址
 					</a>
-					<form id="address" class="collapse address_form">
+					<form id="address" class="collapse in address_form">
 						<div class="container address_input">
 							<div class="row">
 								<div class="input-group  col-xs-10 col-xs-offset-1">
@@ -97,6 +94,23 @@
 								</div>
 								<div class="input_button col-xs-2 col-xs-offset-9">
 									<button type="submit" class="btn btn-success">保存</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<div class="list-group">
+					<a href="#money" class="list-group-item collapsed tip" data-toggle="collapse">
+						当前余额
+					</a>
+					<form id="money" class="collapse in address_form">
+						<div class="container money_input">
+							<div class="row">
+								<div class="input-group  col-xs-10 col-xs-offset-1">
+									<span>您的当前余额：</span>
+									<span id="money">999.99</span>
+									<span>元</span>
 								</div>
 							</div>
 						</div>

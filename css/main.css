@@ -6,6 +6,7 @@
 .logo{
 	font-size: 18px;
 	color:orange;
+	margin-left: 15px;
 }
 .back{
 	font-size: 15px;
@@ -47,6 +48,29 @@
 #userhome{
 	width:50%;
 }
+.category-item h4{
+	height:50px;
+	font-size: 15px;
+	line-height: 50px;
+	font-family: "微软雅黑";
+}
+.back_top{
+	position: fixed;
+	bottom:50px;
+	z-index: 100px;
+	width:20%;
+	text-align: center;
+	margin-bottom: 7px;
+	height:30px;
+	line-height: 30px;
+	margin-left: 10px;
+	background-color:lightblue;
+	border-radius: 5px;
+
+}
+.back_top a{
+	color:#121212;
+}
 .category_list{
 	display:none;
 }
@@ -62,6 +86,15 @@
 	padding-top: 30px;
 	background: rgb(255, 255, 255) none repeat scroll 0% 0%;
 }
+.money_input{
+	height:80px;
+	padding-top: 30px;
+	background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+	text-align: center;
+}
+#money{
+	color:red;
+}
 .input-group span{
 	background: rgb(255, 255, 255) none repeat scroll 0% 0%;
 	border-color: rgba(255,255,255,1);
@@ -73,9 +106,7 @@
 	width:50px;
 	height:30px;
 }
-.category_list{
-	margin-top: -11px;
-}
+
 .list-item{
 	min-height: 100px;
 	background-color: rgba(255,255,255,0.8);
