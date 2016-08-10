@@ -73,3 +73,22 @@
 	width:50px;
 	height:30px;
 }
+.category_list{
+	margin-top: -11px;
+}
+.list-item{
+	min-height: 100px;
+	background-color: rgba(255,255,255,0.8);
+}
+.list-item a{
+	margin-top: 20px;
+	font-size: 14px;
+	color:#121212;
+	background-color: rgba(255,255,255,0.8);
+}
+.list-item a:hover{
+	color:red;
+}
+.maincontainer{
+	padding:0;
+}

@@ -80,7 +80,7 @@ h1, h2, h3{font-family: "Microsoft Yahei",Arial, Helvetica, sans-serif;}
 .nav-left{left:5px;}
 .nav-right{right:5px;text-align: center;}
 .tit{color: #fff;/* font-size: 18px; */font-weight: normal;height: 100%; text-align: center;font-size:18px;}
-.fixed-foot{height: 50px; z-index: 999; position: fixed; bottom: 0;left: 0; right: 0;width:100%; }
+.fixed-foot{background-color: rgba(255,255,255,0.8); height: 50px; z-index: 999; position: fixed; bottom: 0;left: 0; right: 0;width:100%; }
 .fixed_inner{margin:0 auto;position: relative;background:#fff;border-top:1px solid #ccc; max-width: 768px;}
 .footer{height: 50px;}
 .foot-con{width:100%;height:49px;position:fixed; z-index:100; right:0; bottom:0;}
@@ -161,7 +161,7 @@ h1, h2, h3{font-family: "Microsoft Yahei",Arial, Helvetica, sans-serif;}
 .icon_sort{background: url(../images/aim-sprites.png) no-repeat; background-size: 200px 200px;content: ""; display: inline-block; width: 8px; height: 10px;background-position: -170px -30px;margin-left: 4px;}
 .icon_sort_down{background: url(../images/aim-sprites.png) no-repeat; background-size: 200px 200px;content: "";display: inline-block;width: 8px; height: 10px;background-position: -170px 0;margin-left: 4px;}
 .icon_sort_up{background: url(../images/aim-sprites.png) no-repeat;background-size: 200px 200px;content: "";display: inline-block; width: 8px; height: 10px; background-position: -170px -15px;margin-left: 4px;}
-.item-list{min-height: 230px; /* padding-top: 43px; */}
+.item-list{ /* padding-top: 43px; */}
 .item-list a{display: block;background-color: #fff;}
 .hproduct{padding: 10px; height: auto; min-height: 40px;position: relative;border-bottom: 1px solid #e5e5e5;}
 .p-pic{float:left; width:100px;}
